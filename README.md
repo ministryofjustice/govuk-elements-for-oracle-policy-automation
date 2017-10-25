@@ -1,13 +1,13 @@
 # GOV.UK elements for OPA
-Assets for developing policy model interviews with [Oracle Policy Automation](https://www.oracle.com/applications/oracle-policy-automation/index.html) styled consistently with [govuk-element styles](https://govuk-elements.herokuapp.com/).
+Assets for developing policy model interviews with [Oracle Policy Automation](https://www.oracle.com/applications/oracle-policy-automation/index.html) styled consistently with [govuk-elements styles](https://govuk-elements.herokuapp.com/).
 
 ## Features
 -	Styling applied through the OPM UI
 -	Custom CSS for styling the rulebase
 -	Custom JavaScript to provide functionality, combined with the custom CSS
 -	Available for Oracle Policy Automation 12.2.8 (August 17) (when run in *latest version*)
--	Excludes GOV.UK elements header and footer
--	Static HTML wrapper containing header and footer for use with embedded deployments
+-	Excludes GOV.UK header and footer (at the moment)
+-	Static HTML wrapper containing header and footer templates for use with embedded deployments
 
 ## Usage
 -	Download **govuk-elements-August-17.zip**
