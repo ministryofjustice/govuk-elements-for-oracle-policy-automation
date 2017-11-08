@@ -32,6 +32,29 @@
 	<link href="HUBURL/web-determinations/staticresource/fonts/fonts.css" rel="stylesheet" type="text/css" />
 	<script src="HUBURL/web-determinations/staticresource/interviews.js"></script>
 	<!-- Embedding a rulebase </head> section end -->
+	<style>
+		.loader {
+			border: 12px solid #DEE0E2;
+			border-radius: 50%;
+			border-top-color: #005EA5;
+			width: 80px;
+			height: 80px;
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+			margin:100px;
+			display:inline-block;
+		}
+
+		@-webkit-keyframes spin {
+			0% { -webkit-transform: rotate(0deg); }
+			100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+	</style>
 </head>
 
 <body class="mainstream homepage js-enabled">
@@ -70,8 +93,11 @@
 							</span>
 						</p>
 					</div>
-					<div style="display: inline-block; width:100%">
-						<div id="interviewDiv" style="width: 100%; display: block; margin-left: auto; margin-right:auto; float: left">
+					<div style="display: inline-block; width:100%; min-height:600px;">
+						<div id="tempContent" style="text-align:center;" >
+							<div class="loader" alt="page loading"></div>
+						</div>
+						<div id="interviewDiv" style="width: 100%; display: block; margin-left: auto; margin-right:auto;">
 						</div>
 					</div>
 				</div>
